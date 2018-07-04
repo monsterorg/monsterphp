@@ -1,0 +1,16 @@
+[2018-06-15 21:05:00] db.DEBUG: connect: 0.00093388557434082
+[2018-06-15 21:05:00] db.DEBUG: perform:SELECT     * FROM     `sys_user` 0.00032210350036621
+[2018-06-15 21:05:47] db.DEBUG: connect: 0.00099992752075195
+[2018-06-15 21:06:34] db.DEBUG: connect: 0.0044529438018799 {"function":"connect","start":1529067994.557329,"finish":1529067994.561782,"duration":0.004452943801879883,"statement":null,"values":"","backtrace":"#0 /mnt/d/www/MonsterPHP/vendor/aura/sql/src/ExtendedPdo.php(109): Aura\\Sql\\Profiler\\Profiler->finish()\n#1 /mnt/d/www/MonsterPHP/vendor/aura/sql/src/AbstractExtendedPdo.php(555): Aura\\Sql\\ExtendedPdo->connect()\n#2 /mnt/d/www/MonsterPHP/vendor/aura/sql/src/AbstractExtendedPdo.php(250): Aura\\Sql\\AbstractExtendedPdo->perform('SELECT\\n    *\\nFR...', Array)\n#3 /mnt/d/www/MonsterPHP/app/Controller/Http/Index.php(15): Aura\\Sql\\AbstractExtendedPdo->fetchAll('SELECT\\n    *\\nFR...')\n#4 /mnt/d/www/MonsterPHP/foundation/HttpApplication.php(26): MonsterPHP\\App\\Controller\\Http\\Index->index()\n#5 /mnt/d/www/MonsterPHP/bootstrap/http.php(6): MonsterPHP\\Foundation\\HttpApplication->run()\n#6 /mnt/d/www/MonsterPHP/public/backend.php(4): include('/mnt/d/www/Mons...')\n#7 {main}"} []
+[2018-06-15 23:03:11] db.DEBUG: connect: 0.0095579624176025
+[2018-06-15 23:03:49] db.DEBUG: connect: 0.0030231475830078
+[2018-06-15 23:04:32] db.DEBUG: connect: 0.0022120475769043
+[2018-06-15 23:05:14] db.DEBUG: connect: 0.0012049674987793
+[2018-06-15 23:05:34] db.DEBUG: connect: 0.0022749900817871
+[2018-06-15 23:05:34] db.DEBUG: perform:SELECT     * FROM     `sys_user` WHERE     id=1 and username=1 0.039812803268433
+[2018-06-15 23:06:22] db.DEBUG: connect: 0.0023670196533203
+[2018-06-15 23:06:22] db.DEBUG: perform:SELECT     * FROM     `sys_user` WHERE     id=1 and username=1 0.0010919570922852
+[2018-06-15 23:07:35] db.DEBUG: connect: 0.0019118785858154
+[2018-06-15 23:11:52] db.DEBUG: connect: 0.0019559860229492
+[2018-06-15 23:11:57] db.DEBUG: connect: 0.0020840167999268
+[2018-06-15 23:11:59] db.DEBUG: connect: 0.0017011165618896

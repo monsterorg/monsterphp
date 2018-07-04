@@ -1,0 +1,32 @@
+{
+    "name": "monsterorg/MonsterPHP",
+    "description": "PHP APIs for MonsterCMS",
+    "license":"MIT",
+    "authors":[
+        {
+            "name": "Luckycn",
+            "email": "calvinhuangxz@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "aura/di": "^3.4",
+        "aura/web": "^2.1",
+        "aura/filter": "^2.3",
+        "aura/sql": "^3.0",
+        "aura/sqlquery": "^2.7",
+        "monolog/monolog":"^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "MonsterPHP\\App\\": "app/",
+            "MonsterPHP\\Foundation\\": "foundation/"
+        }
+    },
+    "repositories":{
+        "packagist":{
+            "type":"composer",
+            "url":"https://packagist.phpcomposer.com"
+        }
+    }
+}
